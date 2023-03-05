@@ -16,6 +16,15 @@ public class StrRemoveDuplicates {
         System.out.println(removeDupTwo("aaa")); // a
         System.out.println(removeDupTwo("aaabba")); // ab
         System.out.println(removeDupTwo("abc")); // abc
+
+        System.out.println("-------");
+        System.out.println(removeDupeThree("hello")); // helo
+        System.out.println(removeDupeThree("aaa")); // a
+        System.out.println(removeDupeThree("aaabba")); // ab
+        System.out.println(removeDupeThree("abc")); // abc
+        System.out.println(removeDupeThree("123324567")); // 1234567
+        System.out.println(removeDupeThree("1221")); // 12
+        System.out.println(removeDupeThree("12776")); // 1276
     }
 
 
@@ -46,5 +55,15 @@ public class StrRemoveDuplicates {
             }
         }
         return result.toString();
+    }
+
+    public static String removeDupeThree(String str) {
+        String result = "";
+        for (int i = 0; i < str.length(); i++) {
+            if (!result.contains(String.valueOf(str.charAt(i)))) {
+                result += String.valueOf(str.charAt(i));
+            }
+        }
+        return result;
     }
 }

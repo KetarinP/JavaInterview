@@ -35,9 +35,9 @@ public class StrPalindrome {
     public static boolean isPalTwo(String str) {
         int end = str.length() - 1;
         for (int start = 0; start < str.length() / 2; start++) {
-            char sChar = str.charAt(start);
-            char eChar = str.charAt(end);
-            if (sChar != eChar) {
+            char startChar = str.charAt(start);
+            char endChar = str.charAt(end);
+            if (startChar != endChar) {
                 return false;
             }
             end--;

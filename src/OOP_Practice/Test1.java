@@ -1,4 +1,4 @@
-package InheritancePractice;
+package OOP_Practice;
 
 class A {
     int a;
