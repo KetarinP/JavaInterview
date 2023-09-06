@@ -59,8 +59,11 @@ public class StrRemoveDuplicates {
 
     public static String removeDupeThree(String str) {
         String result = "";
+        // for loop to iterate over each character in the original string
         for (int i = 0; i < str.length(); i++) {
+            // if character is not present
             if (!result.contains(String.valueOf(str.charAt(i)))) {
+                //  adds it to the result string
                 result += String.valueOf(str.charAt(i));
             }
         }
