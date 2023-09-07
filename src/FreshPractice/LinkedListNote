@@ -1,0 +1,10 @@
+- Linked List is Good for: Insertion and deletion
+- Linked list is not Good for: retrieve elements. It is too slow because it will have to go through each nodes to look for
+    elements you're searching for. ArrayList is best for retrieving elements.
+- Linked List is most used with Stack and Queue
+    - Queue is First In First Out (FIFO) concept.
+    - Stack is First In Last Out (FILO) concept.
+- Every node is divided in 3 parts
+- Allow duplicates
+- Null is available
+-
