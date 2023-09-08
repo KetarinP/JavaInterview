@@ -7,6 +7,11 @@ public class LinkedListDemo {
 
     public static void main(String[] args) {
 
+        // HashSet                                      vs  LinkedHashSet
+        // Duplicate is not allow                           Duplicate is not allow
+        // Does not maintain insertion order                maintain insertion order
+        // HashTable                                        Hash Table & LinkedList
+
         //Declare Linked List
 //        LinkedList <Integer> l = new LinkedList<>();
 //        LinkedList <String> l = new LinkedList<>();
